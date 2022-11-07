@@ -67,9 +67,9 @@
                     </view>
                     <connections>
                         <outlet property="changeButton" destination="x3S-Sy-Gw1" id="3xe-Lp-fY5"/>
-                        <outletCollection property="trafickLightColor" destination="meU-1s-Jrc" collectionClass="NSMutableArray" id="DVC-R7-Gn6"/>
-                        <outletCollection property="trafickLightColor" destination="2pK-J6-Rnq" collectionClass="NSMutableArray" id="sn1-G6-tK0"/>
-                        <outletCollection property="trafickLightColor" destination="KgQ-QC-YnZ" collectionClass="NSMutableArray" id="BWY-Fb-2YB"/>
+                        <outletCollection property="trafficLightColor" destination="meU-1s-Jrc" collectionClass="NSMutableArray" id="DVC-R7-Gn6"/>
+                        <outletCollection property="trafficLightColor" destination="2pK-J6-Rnq" collectionClass="NSMutableArray" id="sn1-G6-tK0"/>
+                        <outletCollection property="trafficLightColor" destination="KgQ-QC-YnZ" collectionClass="NSMutableArray" id="BWY-Fb-2YB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  TraficLight
+//  TrafficLight
 //
 //  Created by Vladimir Khalin on 07.11.2022.
 //
@@ -12,12 +12,12 @@ class ViewController: UIViewController {
     private var changeColor = 0
     
     @IBOutlet var changeButton: UIButton!
-    @IBOutlet var trafickLightColor:[UIView]!
+    @IBOutlet var trafficLightColor:[UIView]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        for color in trafickLightColor {
+        for color in trafficLightColor {
             color.layer.cornerRadius = 50
             color.alpha = 0.3
         }
@@ -27,12 +27,12 @@ class ViewController: UIViewController {
     
     @IBAction func changeButtonDidTapped(_ sender: Any) {
         
-        if changeColor == trafickLightColor.count { changeColor = 0}
+        if changeColor == trafficLightColor.count { changeColor = 0}
         
-        for color in trafickLightColor {
+        for color in trafficLightColor {
             color.alpha = 0.3
         }
-        trafickLightColor[changeColor].alpha = 1
+        trafficLightColor[changeColor].alpha = 1
         changeColor += 1
         changeButton.setTitle( "NEXT", for: .normal)
     }
