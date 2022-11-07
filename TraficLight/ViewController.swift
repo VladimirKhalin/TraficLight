@@ -17,12 +17,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        changeButton.layer.cornerRadius = 10
+        
         for color in trafficLightColor {
             color.layer.cornerRadius = 50
             color.alpha = 0.3
         }
-
-        changeButton.layer.cornerRadius = 10
     }
     
     @IBAction func changeButtonDidTapped(_ sender: Any) {
